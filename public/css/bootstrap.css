@@ -76,8 +76,8 @@ img {
 }
 
 .imgLogo {
-  width: auto;
-  height: auto;
+  width: 40%;
+  height: 40%;
   max-width: 100%;
   vertical-align: middle;
   border: 0;
@@ -5737,6 +5737,7 @@ a.badge:hover {
 .hero-unit {
   padding: 60px;
   margin-bottom: 30px;
+  text-align:center;
   background-color: #eeeeee;
   -webkit-border-radius: 6px;
      -moz-border-radius: 6px;
