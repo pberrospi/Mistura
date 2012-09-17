@@ -75,6 +75,15 @@ img {
   -ms-interpolation-mode: bicubic;
 }
 
+.imgLogo {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
 #map_canvas img {
   max-width: none;
 }
