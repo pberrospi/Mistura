@@ -22,23 +22,17 @@
       map.addMarker({
         lat: -12.103991,
         lng: -76.962866,
-        title: 'Lima',
-        details: {
-          database_id: 42,
-          author: 'HPNeo'
-        },
-        click: function(e){
-          if(console.log)
-            console.log(e);
-          alert('You clicked in this marker');
+        title: 'Tienda con Información',
+        infoWindow: {
+          content: '<p>Tienda de Pool</p>'
         }
       });
       map.addMarker({
-        lat: -12.103991,
-        lng: -76.962866,
-        title: 'Marker with InfoWindow',
+        lat: -12.104966,
+        lng: -76.961269,
+        title: 'Tienda con Información',
         infoWindow: {
-          content: '<p>Tienda de Pool</p>'
+          content: '<p>Tienda de Pool Nro 2</p>'
         }
       });
     });
@@ -49,7 +43,7 @@
     <h2>Los Restaurantes de Mistura</h2>
   </div>
   <div id="body">
-    <h3>Markers</h3>
+    <h3>Restaurantes</h3>
     <div class="row">
       <div class="span11">
         <div class="popin">
@@ -57,20 +51,11 @@
         </div>
       </div>
       <div class="span6">
-        <p>With GMaps.js you can add markers this way:</p>
-        <pre class="prettyprint">map.addMarker({
-  lat: -12.043333,
-  lng: -77.028333,
-  title: 'Lima',
-  click: function(e) {
-    alert('You clicked in this marker');
-  }
-});</pre>
-        <p><strong>latitude</strong> and <strong>longitude</strong> are required. You can also attach additional information with <code>details</code>, which will be passed to Event object (<code>e</code>) in the events previously defined.</p>
-        <p><span class="label notice">Note</span>If you want to show an Info Window, you must add:</p>
-        <pre class="prettyprint">infoWindow: {
-  content: '&lt;p&gt;HTML Content&lt;/p&gt;'
-}</pre>
+        <p>Nuestras tiendas:</p>
+        <pre class="prettyprint">Restaurantes</pre>
+        <p><strong>Texto</strong> .</p>
+        <p><span class="label notice">Datos</span>Si desea ver mayor información de click en los Iconos Rojos.:</p>
+        
       </div>
     </div>
   </div>
